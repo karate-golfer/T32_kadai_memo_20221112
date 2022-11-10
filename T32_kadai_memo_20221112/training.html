@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
+  <link rel="stylesheet" href="css/training.css">
+  <script src="js/training.js"></script>
+  
+  
+
+  <title>トレーニング記録</title>
+</head>
+
+<body>
+  <div class="content">
+    <p><b>トレーニング日記</b></p>
+    <img class="img" src="img/筋トレ.jpeg" alt="自衛官の腕立て伏せ">
+    <p><b>年／月：<span id="target_month"></span></b></p>
+
+    <p>
+      <a id="get_before_month" href="javascript:void(0);">＜＜前月</a>
+      <input type="text" id="training" placeholder="種目">
+      <input type="text" id="times" placeholder="回数">
+      <input type="button" id="add" value="追加">
+      <input type="button" id="clear" value="クリア">
+      <a id="get_next_month" href="javascript:void(0);">翌月＞＞</a>
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th width="25%">日付</th>
+          <th width="40%">種目</th>
+          <th width="25%">回数</th>
+          <th width="25%"></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    
+    <div>
+      <b><p class="sum_times">合計：0回</p></b>
+    </div>
+    
+    
+    
+
+</div>
+</body>
+</html>

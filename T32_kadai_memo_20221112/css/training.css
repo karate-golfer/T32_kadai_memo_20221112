@@ -1,0 +1,54 @@
+body{
+    background-color: olive;
+    width: 600px;
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    margin: 0 auto;
+    padding: 20px;
+}
+
+div.content{
+    width: 600px;
+    table-layout: fixed;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: visible;
+}
+
+table, input{
+    margin: 5px;
+}
+
+input[type=text]{
+    width: 120px;
+}
+
+table{
+    width: 550px;
+}
+
+table,tr,th,td{
+    font-size: 14px;
+    list-style-type: none;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 5px
+}
+
+table{
+    background: green;
+}
+
+
+tr{
+    background: lightgray;
+}
+
+td{
+    background: white;
+    padding-left: 12px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+  }
